@@ -1,7 +1,7 @@
 variable "aws_region" {
   type        = string
   description = "The AWS region to put the bucket into"
-  default     = "ap-northeast-1"
+  default     = "eu-central-1"
 }
 
 variable "primary-domain" {
