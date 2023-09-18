@@ -1,0 +1,19 @@
+{
+  "name": "fl-homepage",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "cpy-cli": "^5.0.0"
+  },
+  "scripts": {
+    "build": "cpy index.html build/ -f"
+  },
+  "engines": {
+    "npm": "9.6.7",
+    "node": "18.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fang-lin/fl-homepage.git"
+  }
+}
