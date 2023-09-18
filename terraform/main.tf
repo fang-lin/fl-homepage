@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     bucket = "terraform-state.fanglin.me"
     key    = "homepage/terraform.tfstate"
-    region = var.aws_region
+    region = "eu-central-1"
   }
 
   required_version = "1.5.7"
